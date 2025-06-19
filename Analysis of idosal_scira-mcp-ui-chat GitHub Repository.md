@@ -59,6 +59,9 @@ The agent interaction lifecycle in `idosal/scira-mcp-ui-chat` extends the tradit
 6.  **User Interaction with UI**: The user interacts with the rendered UI, generating `onUiAction` events.
 7.  **Event Handling and Agent Response**: The `onUiAction` events are captured by the `mcp-ui` client and relayed to the AI agent. The AI agent processes these events, potentially invoking further tools or generating new responses (textual or UI-based) based on the user's UI interaction.
 8.  **Continuous UI-Driven Dialogue**: This dynamic process allows the AI to guide the user through complex tasks using visual interfaces, moving beyond reliance on text alone.
+   
+![](/diagg.png)
+
 
 ## 4. Comparison with zaidmukaddam/scira-mcp-chat
 
